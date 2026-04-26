@@ -40,7 +40,6 @@ export default function Hero() {
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-zinc-100 leading-[1.1]">
               Kiarash Fayaz
             </h1>
-            <p className="text-zinc-600 text-sm mt-2 font-mono">Amir Mohammad Fayaz</p>
           </div>
 
           {/* Title */}
@@ -81,18 +80,20 @@ export default function Hero() {
               View Projects
             </a>
             <a
+              href="/Kiarash_Fayaz_Resume.pdf"
+              download
+              className="px-6 py-2.5 border border-zinc-700 text-zinc-300 text-sm font-semibold rounded-sm hover:border-accent/50 hover:text-accent transition-colors flex items-center gap-2"
+            >
+              <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+              Download CV
+            </a>
+            <a
               href="#contact"
               className="px-6 py-2.5 border border-zinc-700 text-zinc-300 text-sm font-semibold rounded-sm hover:border-zinc-500 hover:text-zinc-100 transition-colors"
             >
               Get in Touch
-            </a>
-            <a
-              href={personal.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-2.5 border border-zinc-700 text-zinc-300 text-sm font-semibold rounded-sm hover:border-zinc-500 hover:text-zinc-100 transition-colors"
-            >
-              GitHub
             </a>
           </div>
         </div>
